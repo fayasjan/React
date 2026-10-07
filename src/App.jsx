@@ -1,23 +1,27 @@
-import Header from "./header.jsx"
-import Variable from "./Variable.jsx"
-import Hello from "./props.jsx"
-import PropsChildren from "./Children.jsx"
-import handleClick from "./Event.jsx"
-import Usestate from "./Usestate.jsx";
-import UseStateUpdater from "./UseStateUpdater.jsx";
-import UseEffect from "./UseEffect.jsx"
-import { useState } from "react"
+// import Header from "./header.jsx"
+// import Variable from "./Variable.jsx"
+// import Hello from "./props.jsx"
+// import PropsChildren from "./Children.jsx"
+// import handleClick from "./Event.jsx"
+// import Usestate from "./Usestate.jsx";
+// import UseStateUpdater from "./UseStateUpdater.jsx";
+// import UseEffect from "./UseEffect.jsx"
+// import ControlUseEffect from "./ControlUseEffect.jsx"
+// import FetchAnApi from "./Fetch";
+// import Unmount from "./UnmountUseEffect";
+// import { useState } from "react"
 
+import UseRefCase from "./useRef";
 
 function App() {
-const [name,setName] = useState ("");
-const [age,setAge] = useState (0);
-const [clas,setClas] = useState (0);
+  // const [name, setName] = useState(false);
+  // const [age,setAge] = useState (0);
+  // const [clas,setClas] = useState (0);
 
 
   return (
     <>
-      <Header />
+      {/* <Header />
 
       <Variable />
 
@@ -38,9 +42,19 @@ const [clas,setClas] = useState (0);
 
       <Usestate />
 
-      <UseStateUpdater />
+      <UseStateUpdater /> */}
 
-      <UseEffect />
+
+      {/* <ControlUseEffect /> */}
+
+      {/* <FetchAnApi/>; */}
+
+      {/* {name ? <UseEffect />
+        : <Unmount />}
+
+      <button onClick={() => setName(!name)}>click me</button> */}
+
+      <UseRefCase />
 
     </>
   );
