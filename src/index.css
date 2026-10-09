@@ -2,3 +2,9 @@
     background-color: aquamarine;
     text-align: center;
 }
+
+.btn {
+    height: 100px;
+    width: 100px;
+    text-align: center;
+}
